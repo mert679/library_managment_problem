@@ -1,0 +1,46 @@
+// Problem Tanımı:
+// Bir kütüphane, kullanıcıların kitap ödünç alıp iade etmelerine olanak tanıyan 
+// basit bir yazılım geliştirmek istiyor. Sistem, mevcut kitapları görüntüleme, 
+// ödünç alma ve iade etme işlemlerini yaparken, kullanıcıların doğru 
+// ve geçerli işlemleri gerçekleştirdiğinden emin olmalıdır. Ayrıca kullanıcılar, 
+// sistemden çıkış yapabilmelidir.
+
+// Hedefler:
+// Kullanıcıların kütüphanede mevcut kitapları görüntülemesi.
+// Kitap ödünç alma işleminin gerçekleştirilmesi.
+// Kitapların iade edilebilmesi.
+// Kullanıcıların yanlış giriş yapmaları durumunda bilgilendirilmesi.
+// Kullanıcıların sistemden güvenli bir şekilde çıkış yapabilmesi.
+
+
+
+books = ["Kitap1", "Kitap2", "Kitap3"] // kitaplıktaki kitaplar
+borrowed_books = [] // ödünç alınan 
+
+function LibrarySystem()
+    while True:
+        print( "1: Kitapları Görüntüle")
+        print("2: Kitap Ödünç Al") 
+        print("3: Kitap İade Et") 
+        print("4: Çıkış") 
+        choice = input("Hangi seçeneği seçiyorsun?")
+
+        if choice == 1:
+        // mevcut olan kitapları yazdır.
+      
+        else if choice == 2:
+        // Hangi kitabı ödünç almak istediğini sor, daha sonra mevcut listeden çıkar ve 
+        // borrowed_books ekle eğer o kitap yoksa bu kitap mevcut değil yazdır.
+           
+        else if choice == 3:
+        // Hangi kitabı iade istediğini sor, daha sonra ödünç den çıkar ve 
+        // mevcut kitaplara ekle eğer o kitap yoksa bu kitap ödünç alınmamış yazdır.
+            
+        else if choice == 4
+            print("Kütüphane Sisteminden Çıkılıyor.") 
+            break
+        else
+            print() "Geçersiz seçim!"
+        
+    end loop
+end function 
